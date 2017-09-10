@@ -1,4 +1,4 @@
-FROM mongo:latest
+FROM mongo:3.2.16
 
 ENV TMPFS_SIZE 1024
 COPY entrypoint.sh /entrypoint.sh
